@@ -12,7 +12,7 @@ def info():
         'message': 'Buen Trabajo',
         'deployed_on': 'kubernetes',
         'env': '${{values.app_env}}',
-         'app_name': '${{values.app_name}}'})
+        'app_name': '${{values.app_name}}'})
 
 @app.route('/api/v1/healthz')
 def health():
