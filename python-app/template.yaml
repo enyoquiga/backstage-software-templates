@@ -41,8 +41,8 @@ spec:
       name: Publish
       action: publish:github
       input:
-        allowedHosts:
-          - github.com
+        #allowedHosts: parametro que ya no se usa
+          #- github.com
         description: This is ${{ parameters.component_id }}
         repoUrl: github.com?owner=enyoquiga&repo=${{parameters.component_id}}
         protectDefaultBranch: false
