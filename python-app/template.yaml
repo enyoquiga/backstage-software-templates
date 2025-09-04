@@ -44,7 +44,7 @@ spec:
         #allowedHosts: parametro que ya no se usa
           #- github.com
         description: This is ${{ parameters.component_id }}
-        repoUrl: github.com?owner=enyoquiga&repo=${{parameters.component_id}}
+        repoUrl: github.com?owner=enequintero&repo=${{parameters.component_id}}
         protectDefaultBranch: false
         repoVisibility: public
 
